@@ -28,5 +28,5 @@ function howManyTextInPara(fullText: string, searchTerm: string): number {
     return contador
 }
 
-console.log(`Se encuentra searchTerm en Paragrapsh?: ` + (isTextInPara(paragraph, ` la `))); //Escribo la palabra entre espacios para que no sume las palabras que contienen searchTerm
-console.log(`Que cantidad de veces se repite searchTerm en Paragraph?: ` + (howManyTextInPara(paragraph, ` la `)));
+console.log(`Se encuentra searchTerm en Paragrapsh?: ${isTextInPara(paragraph, ` la `)}`); //Escribo la palabra entre espacios para que no sume las palabras que contienen searchTerm
+console.log(`Que cantidad de veces se repite searchTerm en Paragraph?: ${howManyTextInPara(paragraph, ` la `)}`);
